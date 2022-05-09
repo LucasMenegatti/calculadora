@@ -5,12 +5,13 @@
 
 .container {
     font-size: 2rem;
-    width: 40%;
-    margin: 10% auto;
+    max-width: 600px;
+    margin: 20vh auto 0 auto;
     text-align: center;
 }
 
 .formulario {
+    margin: 1rem;
     padding: 1rem;
     border: 1px solid #696969;
     border-radius: 30px;
@@ -18,18 +19,48 @@
 }
 
 .caixa_texto {
-    font-size: 2rem;
     margin: .5rem 0;
     padding: .2rem .5rem;
+    max-width: 80%;
+}
+
+.container__resultado {
+    margin-top: 2rem;
 }
 
 .caixa_resultado {
-    margin-top: 70px;
-    width: 500px;
+    max-width: 80%;
 }
 
-.botao {
-    font-size: 2rem;
-    padding: .5rem;
-    margin: .5rem;
+@media screen and (min-width: 0) {
+    .container {
+        font-size: 1rem;
+    }
+
+    .caixa_texto {
+        font-size: 1rem;
+    }
+
+    .botao {
+        font-size: 1rem;
+        padding: .2rem;
+        margin: .2rem;
+    }
+}
+
+@media screen and (min-width: 800) {
+    .container {
+        font-size: 2rem;
+    }
+
+    .caixa_texto {
+        font-size: 2rem;
+    }
+
+    .botao {
+        font-size: 2rem;
+        padding: .5rem;
+        margin: .5rem;
+    }
+    
 }
