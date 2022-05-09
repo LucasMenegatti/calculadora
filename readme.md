@@ -1,0 +1,1 @@
+Calculadora muito simples, utilizando funções anônimas em JavaScript.

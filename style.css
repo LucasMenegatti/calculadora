@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-size: 2rem;
+    width: 40%;
+    margin: 10% auto;
+    text-align: center;
+}
+
+.formulario {
+    padding: 1rem;
+    border: 1px solid #696969;
+    border-radius: 30px;
+    box-shadow: 0 0 1em black;
+}
+
+.caixa_texto {
+    font-size: 2rem;
+    margin: .5rem 0;
+    padding: .2rem .5rem;
+}
+
+.caixa_resultado {
+    margin-top: 70px;
+    width: 500px;
+}
+
+.botao {
+    font-size: 2rem;
+    padding: .5rem;
+    margin: .5rem;
+}

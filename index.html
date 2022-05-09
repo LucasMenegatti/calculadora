@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora Simples</title>
+</head>
+<body>
+    <section class="container">
+        <form class="formulario">
+            <label for="num_a">Primeiro Número: </label>
+            <input class="caixa_texto" id="num_a" type="number" name="num_a"><br>
+            <label for="num_b">Segundo Número: </label>
+            <input class="caixa_texto" id="num_b" type="number" name="num_b"><br>
+            <div class="botoes">
+                <input class="botao" id="botaoSomar" type="button" value="SOMAR">
+                <input class="botao" id="botaoSubtrair" type="button" value="SUBTRAIR">
+                <input class="botao" id="botaoMultiplicar" type="button" value="MULTIPLICAR">
+                <input class="botao" id="botaoDividir" type="button" value="DIVIDIR">
+            </div>  
+        </form>
+        <label for="resultado">Resultado: </label>
+        <input class="caixa_texto caixa_resultado" id="resultado" type="text" value="" name="resultado">
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
